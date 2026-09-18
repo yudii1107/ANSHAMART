@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - AnshaMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">🛍️</span>
+            <span>AnshaMart</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html" class="cart-link">
+                Cart <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="shop-section">
+
+            <div class="shop-header">
+                <div>
+                    <p class="section-small">ANSHAMART STORE</p>
+                    <h1>Shop</h1>
+                    <p>Discover products for everyday life.</p>
+                </div>
+
+                <span id="product-count" class="product-count-label"></span>
+            </div>
+
+            <div class="shop-controls">
+
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search products..."
+                    >
+                </div>
+
+                <select id="category-filter">
+                    <option value="">All Categories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Shoes">Shoes</option>
+                    <option value="Books">Books</option>
+                    <option value="Accessories">Accessories</option>
+                </select>
+
+                <select id="sort-products">
+                    <option value="">Sort Products</option>
+                    <option value="low">Price: Low to High</option>
+                    <option value="high">Price: High to Low</option>
+                </select>
+
+            </div>
+
+            <div class="shop-status">
+                <span id="shop-status-text">All Products</span>
+                <button id="clear-filters" type="button">Clear Filters</button>
+            </div>
+
+            <div id="products-container" class="products-grid">
+                <div class="shop-loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading products...</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">AnshaMart</div>
+
+        <p>Your everyday online shopping destination.</p>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">Cart (<span id="cart-count-footer">0</span>)</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 AnshaMart. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="js/shop.js"></script>
+    <script src="js/auth-state.js"></script>
+
+</body>
+
+</html>

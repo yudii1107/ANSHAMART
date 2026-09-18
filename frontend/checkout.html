@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - AnshaMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">AnshaMart</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="login.html">Login</a>
+            <a href="cart.html" class="cart-link">
+                Cart <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="checkout-section">
+            <h1>Checkout</h1>
+
+            <div class="checkout-container">
+
+                <div class="checkout-form">
+                    <h2>Delivery Details</h2>
+
+                    <input type="text" id="name" placeholder="Full Name">
+                    <input type="text" id="address" placeholder="Address">
+                    <input type="text" id="city" placeholder="City">
+                    <input type="text" id="pincode" placeholder="PIN Code">
+                    <input type="text" id="phone" placeholder="Phone Number">
+
+                    <h2>Payment Method</h2>
+
+                    <label>
+                        <input type="radio" name="payment" value="COD" checked>
+                        Cash on Delivery
+                    </label>
+
+                    <button id="place-order-button">
+                        Place Order
+                    </button>
+                </div>
+
+                <div class="checkout-summary">
+                    <h2>Order Summary</h2>
+                    <div id="checkout-items"></div>
+                    <h3 id="checkout-total"></h3>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">AnshaMart</div>
+        <p>Your everyday online shopping destination.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+        <p class="copyright">© 2026 AnshaMart. All rights reserved.</p>
+    </footer>
+    <script src="js/checkout.js"></script>
+    <script src="js/auth-state.js"></script>
+
+</body>
+</html>

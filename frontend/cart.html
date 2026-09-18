@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - AnshaMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">AnshaMart</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="login.html">Login</a>
+            <a href="cart.html" class="cart-link">
+                Cart <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-section">
+            <h1>Your Cart</h1>
+
+            <div id="cart-items"></div>
+
+            <div id="cart-summary"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">AnshaMart</div>
+        <p>Your everyday online shopping destination.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+        <p class="copyright">© 2026 AnshaMart. All rights reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/auth-state.js"></script>
+
+</body>
+</html>

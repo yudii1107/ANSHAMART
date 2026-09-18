@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnshaMart - Online Shopping</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">🛍️</span>
+            <span>AnshaMart</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-small">WELCOME TO ANSHAMART</p>
+
+                <h1>
+                    Shop smart.<br>
+                    Live better.
+                </h1>
+
+                <p class="hero-text">
+                    Discover gadgets, fashion, books and everyday essentials
+                    picked for you.
+                </p>
+
+                <a href="products.html" class="hero-button">
+                    Explore Products →
+                </a>
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="hero-glow glow-one"></div>
+                <div class="hero-glow glow-two"></div>
+
+                <div class="floating-product product-phone">
+                    <span>NEW</span>
+                    📱
+                </div>
+
+                <div class="floating-product product-shoe">
+                    👟
+                </div>
+
+                <div class="floating-product product-watch">
+                    ⌚
+                </div>
+
+                <div class="floating-product product-headphone">
+                    🎧
+                </div>
+
+                <div class="floating-product product-bag">
+                    🎒
+                </div>
+
+                <div class="hero-center">
+                    <div class="hero-center-circle">
+                        <span>🛍️</span>
+                    </div>
+
+                    <strong>AnshaMart</strong>
+                    <small>Everything you need</small>
+                </div>
+
+                <div class="hero-orbit orbit-one"></div>
+                <div class="hero-orbit orbit-two"></div>
+
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="section-heading">
+                <div>
+                    <p class="section-small">EXPLORE</p>
+                    <h2>Shop by Category</h2>
+                </div>
+
+                <a href="products.html">View All →</a>
+            </div>
+
+            <div class="category-grid">
+
+                <a href="products.html?category=Electronics" class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=900&q=85"
+                            alt="Electronics">
+
+                        <span class="category-count">Electronics</span>
+                    </div>
+
+                    <div class="category-info">
+                        <div>
+                            <h3>Electronics</h3>
+                            <p>Smart gadgets & tech essentials</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="products.html?category=Clothing" class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=900&q=85"
+                            alt="Clothing">
+
+                        <span class="category-count">Clothing</span>
+                    </div>
+
+                    <div class="category-info">
+                        <div>
+                            <h3>Clothing</h3>
+                            <p>Everyday fashion & essentials</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="products.html?category=Shoes" class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=85"
+                            alt="Shoes">
+
+                        <span class="category-count">Shoes</span>
+                    </div>
+
+                    <div class="category-info">
+                        <div>
+                            <h3>Shoes</h3>
+                            <p>Step up your everyday style</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="products.html?category=Books" class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=85"
+                            alt="Books">
+
+                        <span class="category-count">Books</span>
+                    </div>
+
+                    <div class="category-info">
+                        <div>
+                            <h3>Books</h3>
+                            <p>Read, learn & discover</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="products.html?category=Accessories" class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85"
+                            alt="Accessories">
+
+                        <span class="category-count">Accessories</span>
+                    </div>
+
+                    <div class="category-info">
+                        <div>
+                            <h3>Accessories</h3>
+                            <p>Complete your everyday look</p>
+                        </div>
+
+                        <span class="category-arrow">→</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="featured highlights-section">
+
+            <div class="section-heading">
+                <div>
+                    <p class="section-small">OUR PICKS</p>
+                    <h2>Highlights</h2>
+                </div>
+
+                <a href="products.html">View All →</a>
+            </div>
+
+            <div class="highlight-slider">
+
+                <button class="slider-btn prev-btn" id="prev-highlight">
+                    &#10094;
+                </button>
+
+                <div class="highlight-track-wrapper">
+                    <div id="highlight-track" class="highlight-track"></div>
+                </div>
+
+                <button class="slider-btn next-btn" id="next-highlight">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <div id="highlight-dots" class="highlight-dots"></div>
+
+        </section>
+
+        <section class="promo">
+            <div class="promo-content">
+                <span class="promo-tag">JUST FOR YOU</span>
+
+                <h2>Something worth<br>adding to your cart.</h2>
+
+                <p>
+                    Discover trending products, everyday essentials,
+                    and new finds waiting for you.
+                </p>
+
+                <div class="promo-actions">
+                    <a href="products.html" class="promo-button">
+                        Start Shopping →
+                    </a>
+
+                    <span class="promo-note">
+                        New products added regularly
+                    </span>
+                </div>
+            </div>
+
+            <div class="promo-visual">
+                <div class="promo-circle circle-one"></div>
+                <div class="promo-circle circle-two"></div>
+
+                <div class="promo-card promo-card-one">
+                    <span>👟</span>
+                    <small>Fashion</small>
+                </div>
+
+                <div class="promo-card promo-card-two">
+                    <span>🎧</span>
+                    <small>Gadgets</small>
+                </div>
+
+                <div class="promo-card promo-card-three">
+                    <span>📚</span>
+                    <small>Books</small>
+                </div>
+
+                <div class="promo-center">
+                    <span>🛍️</span>
+                    <strong>SHOP</strong>
+                    <small>ANSHAMART</small>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">AnshaMart</div>
+        <p>Your everyday online shopping destination.</p>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </div>
+
+        <p class="copyright">© 2026 AnshaMart. All rights reserved.</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/auth-state.js"></script>
+
+    <script>
+        const highlightProducts = [
+            {
+                id: 444,
+                category: "Shoes",
+                name: "one8 Seam XVIII OG",
+                brand: "one8",
+                price: 6999,
+                image: "https://www.teehubshop.com/wp-content/uploads/2026/07/ONE-8-SIGNATURE-1-600x800.jpg"
+            },
+            {
+                id: 434,
+                category: "Electronics",
+                name: "boAt Rockerz 512 ANC",
+                brand: "boAt",
+                price: 3099,
+                image: "https://www.boat-lifestyle.com/cdn/shop/files/Rockerz512ANCpackagingrenders.32_1800x.png?v=1755499445"
+            },
+            {
+                id: 461,
+                category: "Clothing",
+                name: "Levi's 511 Slim Fit Jeans",
+                brand: "Levi's",
+                price: 2999,
+                image: "https://levi.in/cdn/shop/files/001A60004_05_Styleshot.jpg?v=1767769851"
+            },
+            {
+                id: 271,
+                category: "Books",
+                name: "Bhagavad Gita",
+                brand: "",
+                price: 299,
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwEMuYz4GuWxTDvwnDtzJdwU5SerhvbRcBipmhaa5hw&s=10"
+            },
+            {
+                id: 449,
+                category: "Watches",
+                name: "Titan Karishma Quartz Analog Silver Dial",
+                brand: "Titan",
+                price: 1995,
+                image: "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw576680aa/images/Titan/Catalog/1825SM09_1.jpg?sh=600&sw=600"
+            },
+            {
+                id: 455,
+                category: "Accessories",
+                name: "Wildcraft 35L Laptop Backpack",
+                brand: "Wildcraft",
+                price: 2499,
+                image: "https://wildcraft.com/media/catalog/product/1/_/1_3794.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
+            },
+            {
+                id: 454,
+                category: "Men's Accessories",
+                name: "Fastrack Stunners White Dial Metal Strap",
+                brand: "Fastrack",
+                price: 1495,
+                image: "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwb06cd047/images/Fastrack/Catalog/3278SM04_5.jpg?sh=600&sw=600"
+            }
+        ];
+
+        const highlightTrack = document.getElementById("highlight-track");
+        const highlightDots = document.getElementById("highlight-dots");
+
+        let currentHighlight = 0;
+
+        function renderHighlights() {
+            highlightTrack.innerHTML = highlightProducts.map(product => `
+                <div class="highlight-card">
+
+                    <div class="highlight-image">
+                        <img
+                            src="${product.image}"
+                            alt="${product.name}"
+                            onerror="this.src='https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+
+                    <div class="highlight-info">
+
+                        <span class="highlight-category">
+                            ${product.category}
+                        </span>
+
+                        <h3>${product.name}</h3>
+
+                        ${product.brand ? `<p class="highlight-brand">${product.brand}</p>` : ""}
+
+                        <div class="highlight-bottom">
+                            <strong>₹${Number(product.price).toLocaleString("en-IN")}</strong>
+
+                            <a href="product.html?id=${product.id}" class="highlight-button">
+                                View Product
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            `).join("");
+
+            highlightDots.innerHTML = highlightProducts.map((_, index) => `
+                <button
+                    class="highlight-dot ${index === 0 ? "active" : ""}"
+                    onclick="goToHighlight(${index})">
+                </button>
+            `).join("");
+
+            updateHighlight();
+        }
+
+        function updateHighlight() {
+            highlightTrack.style.transform =
+                `translateX(-${currentHighlight * 100}%)`;
+
+            document.querySelectorAll(".highlight-dot").forEach((dot, index) => {
+                dot.classList.toggle(
+                    "active",
+                    index === currentHighlight
+                );
+            });
+        }
+
+        function goToHighlight(index) {
+            currentHighlight = index;
+            updateHighlight();
+            resetHighlightTimer();
+        }
+
+        document.getElementById("next-highlight").addEventListener("click", () => {
+            currentHighlight++;
+
+            if (currentHighlight >= highlightProducts.length) {
+                currentHighlight = 0;
+            }
+
+            updateHighlight();
+            resetHighlightTimer();
+        });
+
+        document.getElementById("prev-highlight").addEventListener("click", () => {
+            currentHighlight--;
+
+            if (currentHighlight < 0) {
+                currentHighlight = highlightProducts.length - 1;
+            }
+
+            updateHighlight();
+            resetHighlightTimer();
+        });
+
+        let highlightTimer = setInterval(() => {
+            currentHighlight++;
+
+            if (currentHighlight >= highlightProducts.length) {
+                currentHighlight = 0;
+            }
+
+            updateHighlight();
+        }, 3500);
+
+        function resetHighlightTimer() {
+            clearInterval(highlightTimer);
+
+            highlightTimer = setInterval(() => {
+                currentHighlight++;
+
+                if (currentHighlight >= highlightProducts.length) {
+                    currentHighlight = 0;
+                }
+
+                updateHighlight();
+            }, 3500);
+        }
+
+        renderHighlights();
+    </script>
+
+</body>
+
+</html>

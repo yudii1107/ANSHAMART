@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - AnshaMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">AnshaMart</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="login.html">Login</a>
+            <a href="cart.html" class="cart-link">
+                Cart <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <div id="product-details">
+                <p>Loading product...</p>
+            </div>
+
+            <div class="wishlist-action">
+                <button id="wishlist-button">♡ Add to Wishlist</button>
+                <p id="wishlist-message"></p>
+            </div>
+            <section class="reviews-section">
+
+                <h2>Customer Reviews</h2>
+
+                <div id="reviews-container">
+                    <p>Loading reviews...</p>
+                </div>
+
+                <div class="review-form">
+                    <h3>Write a Review</h3>
+
+                    <div class="star-rating">
+                        <span data-rating="1">☆</span>
+                        <span data-rating="2">☆</span>
+                        <span data-rating="3">☆</span>
+                        <span data-rating="4">☆</span>
+                        <span data-rating="5">☆</span>
+                    </div>
+
+                    <textarea id="review-text" placeholder="Write your review..." rows="5"></textarea>
+
+                    <button id="submit-review">Submit Review</button>
+
+                    <p id="review-message"></p>
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">AnshaMart</div>
+        <p>Your everyday online shopping destination.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+        <p class="copyright">© 2026 AnshaMart. All rights reserved.</p>
+    </footer>
+
+    <script src="js/product-details.js?v=2"></script>
+    <script src="js/reviews.js"></script>
+    <script src="js/auth-state.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - AnshaMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">AnshaMart</div>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop</a>
+                <a href="orders.html">Orders</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="auth-container">
+        <div class="auth-box">
+            <h1>Create Account</h1>
+            <p>Register to continue shopping on AnshaMart</p>
+
+            <form id="register-form">
+                <input type="text" id="name" placeholder="Full Name" required>
+
+                <input type="email" id="email" placeholder="Email Address" required>
+
+                <input type="password" id="password" placeholder="Password" required>
+
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+
+                <button type="submit">Create Account</button>
+            </form>
+
+            <p id="register-message"></p>
+
+            <p>
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+        </div>
+    </main>
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

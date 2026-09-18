@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - AnshaMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">AnshaMart</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html">Cart <span id="cart-count">0</span></a>
+            <a href="#" id="logout-link">Logout</a>
+        </div>
+    </header>
+
+    <main class="profile-container">
+
+        <div class="profile-box">
+
+            <h1>My Profile</h1>
+            <p>Manage your account and delivery information.</p>
+
+            <form id="profile-form">
+
+                <label>Full Name</label>
+                <input type="text" id="name" required>
+
+                <label>Email</label>
+                <input type="email" id="email" readonly>
+
+                <label>Phone Number</label>
+                <input type="text" id="phone" maxlength="10" required>
+
+                <label>Address</label>
+                <textarea id="address" required></textarea>
+
+                <label>City</label>
+                <input type="text" id="city" required>
+
+                <label>Pincode</label>
+                <input type="text" id="pincode" maxlength="6" required>
+
+                <button type="submit">Save Changes</button>
+
+            </form>
+
+            <p id="profile-message"></p>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">AnshaMart</div>
+        <p>Your everyday online shopping destination.</p>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="orders.html">Orders</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+        <p class="copyright">© 2026 AnshaMart. All rights reserved.</p>
+    </footer>
+
+    <script src="js/profile.js"></script>
+    <script src="js/auth-state.js"></script>
+
+</body>
+
+</html>
