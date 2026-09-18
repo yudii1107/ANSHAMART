@@ -1,274 +1,326 @@
-\# AnshaMart 🛍️
+# 🛍️ AnshaMart
 
+### Full-Stack E-Commerce Website
 
+AnshaMart is a full-stack e-commerce web application built to simulate a real-world online shopping platform. It includes product browsing, authentication, shopping cart, wishlist, reviews, checkout, and order management with a PostgreSQL-powered backend.
 
-A full-stack e-commerce website built as a student project using HTML, CSS, JavaScript, Node.js, Express.js, REST APIs, and PostgreSQL.
+<p align="center">
+  <strong>Built with HTML • CSS • JavaScript • Node.js • Express.js • PostgreSQL</strong>
+</p>
 
+---
 
+## ✨ Features
 
-\## Features
+### 🛒 Shopping
 
+* Browse products across multiple categories
+* Search products
+* Filter by category
+* Sort products by price
+* View detailed product information
+* Add products to cart
+* Update cart quantities
+* Remove products from cart
 
+### 👤 User Account
 
-\* Product listing and product details
+* User registration
+* Secure password hashing
+* User login
+* Authentication
+* Profile management
+* Logout functionality
 
-\* Product search
+### ❤️ Wishlist & Reviews
 
-\* Category filtering
+* Add and remove wishlist products
+* Write product reviews
+* View customer reviews
 
-\* Price sorting
+### 📦 Orders
 
-\* User registration and login
+* Checkout process
+* Order creation
+* Order history
+* Order details
+* Payment method selection
 
-\* Password hashing
+### 🗄️ Backend & Database
 
-\* Shopping cart
+* RESTful API architecture
+* Express.js backend
+* PostgreSQL database
+* CRUD operations
+* Authentication middleware
+* Product, user, order, review and wishlist APIs
 
-\* Checkout
+---
 
-\* Order management
+## 🧰 Tech Stack
 
-\* Product reviews
+| Layer          | Technologies                 |
+| -------------- | ---------------------------- |
+| Frontend       | HTML5, CSS3, JavaScript      |
+| Backend        | Node.js, Express.js          |
+| Database       | PostgreSQL                   |
+| API            | REST APIs                    |
+| Authentication | Password Hashing             |
+| Development    | VS Code, Git, GitHub         |
+| Testing        | Browser DevTools, PowerShell |
 
-\* Wishlist
+---
 
-\* PostgreSQL database integration
-
-\* RESTful backend APIs
-
-\* Responsive frontend
-
-
-
-\## Tech Stack
-
-
-
-\*\*Frontend\*\*
-
-
-
-\* HTML5
-
-\* CSS3
-
-\* JavaScript
-
-
-
-\*\*Backend\*\*
-
-
-
-\* Node.js
-
-\* Express.js
-
-\* REST APIs
-
-
-
-\*\*Database\*\*
-
-
-
-\* PostgreSQL
-
-
-
-\## Project Structure
-
-
+## 🏗️ Project Structure
 
 ```text
-
 ANSHAMART/
-
+│
 ├── backend/
-
 │   ├── middleware/
-
+│   │   └── authMiddleware.js
+│   │
 │   ├── routes/
-
+│   │   ├── auth.js
+│   │   ├── orders.js
+│   │   ├── products.js
+│   │   ├── reviews.js
+│   │   └── wishlist.js
+│   │
 │   ├── db.js
-
 │   ├── server.js
-
-│   └── package.json
-
+│   ├── package.json
+│   └── package-lock.json
 │
-
 ├── frontend/
-
 │   ├── css/
-
+│   │   └── style.css
+│   │
 │   ├── js/
-
+│   │   ├── auth.js
+│   │   ├── auth-state.js
+│   │   ├── cart.js
+│   │   ├── checkout.js
+│   │   ├── orders.js
+│   │   ├── product-details.js
+│   │   ├── products.js
+│   │   ├── profile.js
+│   │   ├── reviews.js
+│   │   ├── shop.js
+│   │   └── wishlist.js
+│   │
 │   ├── index.html
-
 │   ├── products.html
-
 │   ├── product.html
-
 │   ├── cart.html
-
 │   ├── checkout.html
-
 │   ├── orders.html
-
 │   ├── login.html
-
 │   ├── register.html
-
 │   ├── profile.html
-
 │   └── wishlist.html
-
 │
-
+├── .gitignore
 └── README.md
-
 ```
 
+---
 
+## 🔄 Application Flow
 
-\## Running the Project
+```text
+        ┌───────────────┐
+        │    Frontend   │
+        │ HTML/CSS/JS   │
+        └───────┬───────┘
+                │
+                │ REST API
+                ▼
+        ┌───────────────┐
+        │    Express    │
+        │    Backend    │
+        └───────┬───────┘
+                │
+                │ SQL
+                ▼
+        ┌───────────────┐
+        │  PostgreSQL   │
+        │    Database   │
+        └───────────────┘
+```
 
+---
 
+## 🚀 Getting Started
 
-\### 1. Clone the repository
-
-
+### 1. Clone the repository
 
 ```bash
-
 git clone https://github.com/yudii1107/ANSHAMART.git
-
 cd ANSHAMART
-
 ```
 
-
-
-\### 2. Install backend dependencies
-
-
+### 2. Install backend dependencies
 
 ```bash
-
 cd backend
-
 npm install
-
 ```
 
+### 3. Configure PostgreSQL
 
-
-\### 3. Configure PostgreSQL
-
-
-
-Create a PostgreSQL database named:
-
-
+Create a PostgreSQL database:
 
 ```text
-
-ecommerce\_db
-
+ecommerce_db
 ```
 
+Create a `.env` file inside the `backend` directory and configure your local PostgreSQL credentials.
 
+Example:
 
-Configure your database credentials in the backend `.env` file.
+```env
+PORT=5000
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=ecommerce_db
+DB_USER=postgres
+DB_PASSWORD=your_password
+```
 
+> Keep your `.env` file private. It is excluded from Git using `.gitignore`.
 
-
-\### 4. Start the backend
-
-
+### 4. Start the backend
 
 ```bash
-
 node server.js
-
 ```
 
-
-
-The backend runs on:
-
-
+Backend:
 
 ```text
-
 http://localhost:5000
-
 ```
 
+### 5. Start the frontend
 
+From the `frontend` directory:
 
-\### 5. Start the frontend
+```bash
+npx serve -l 3000
+```
 
-
-
-Open the `frontend` folder using a local web server.
-
-
-
-The frontend runs on:
-
-
+Frontend:
 
 ```text
-
 http://localhost:3000
-
 ```
 
+---
 
+## 🔌 API Endpoints
 
-\## API
-
-
-
-Main API routes include:
-
-
+### Products
 
 ```text
-
-/api/products
-
-/api/auth
-
-/api/orders
-
-/api/reviews
-
-/api/wishlist
-
+GET    /api/products
+GET    /api/products/:id
 ```
 
+### Authentication
 
+```text
+POST   /api/auth/register
+POST   /api/auth/login
+```
 
-\## Purpose
+### Orders
 
+```text
+POST   /api/orders
+GET    /api/orders
+```
 
+### Reviews
 
-AnshaMart was developed to practice and demonstrate full-stack web development concepts including frontend development, REST API development, authentication, database integration, CRUD operations, and e-commerce workflows.
+```text
+GET    /api/reviews/:productId
+POST   /api/reviews
+```
 
+### Wishlist
 
+```text
+GET    /api/wishlist
+POST   /api/wishlist
+DELETE /api/wishlist/:productId
+```
 
-\## Author
+---
 
+## 📸 Screenshots
 
+Screenshots of the application can be added here to showcase:
 
-\*\*Yudhishthir\*\*
+* Homepage
+* Shop page
+* Product details
+* Cart
+* Login/Register
+* Checkout
+* Orders
+* Wishlist
 
+---
 
+## 🎯 Project Goals
 
-B.Tech Computer Science and Engineering Student
+The project was developed to gain practical experience with:
 
+* Full-stack web development
+* REST API development
+* Database integration
+* Authentication
+* CRUD operations
+* E-commerce workflows
+* Client-server communication
+* Git and GitHub
+* Frontend UI development
 
+---
 
+## 🔮 Future Improvements
+
+Possible future enhancements include:
+
+* Online payment gateway
+* Admin dashboard
+* Product management panel
+* Order status tracking
+* Product ratings
+* Advanced filtering
+* Pagination
+* Image upload system
+* Deployment with a cloud database
+
+---
+
+## 👨‍💻 Author
+
+### Yudhishthir
+
+**B.Tech Computer Science & Engineering Student**
+
+Interested in Full-Stack Development and building practical web applications.
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
+
+---
+
+<p align="center">
+  ⭐ If you find this project interesting, consider giving the repository a star!
+</p>
