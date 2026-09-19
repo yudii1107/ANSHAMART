@@ -260,7 +260,7 @@ DELETE /api/wishlist/:productId
 
 ## 📸 Screenshots
 
-Screenshots of the application can be added here to showcase:
+Website Looks like
 
 <img width="1896" height="902" alt="Screenshot 2026-09-19 032706" src="https://github.com/user-attachments/assets/1495a670-5fa4-4c9b-8740-e1fb58078b29" />
 <img width="1878" height="902" alt="Screenshot 2026-09-19 032945" src="https://github.com/user-attachments/assets/30fb35b1-695c-46ef-bd3e-355bffea0ea9" />
