@@ -258,7 +258,7 @@ DELETE /api/wishlist/:productId
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Preview
 
 Website Looks like
 
