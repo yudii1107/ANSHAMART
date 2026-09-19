@@ -1,36 +1,36 @@
-🛍️ AnshaMart
-Full-Stack E-Commerce Web Application
+#### 🛍️ AnshaMart
+## Full-Stack E-Commerce Web Application
 
-A modern e-commerce platform built from scratch with a focus on real-world shopping workflows, REST APIs, authentication, database integration, and a clean user experience.
+# A modern e-commerce platform built from scratch with a focus on real-world shopping workflows, REST APIs, authentication, database integration, and a clean user experience.
 
 <div align="center">
 
-HTML5 • CSS3 • JavaScript • Node.js • Express.js • PostgreSQL
+## HTML5 • CSS3 • JavaScript • Node.js • Express.js • PostgreSQL
 
 <br>
 
-🚀 Getting Started • ✨ Features • 🧰 Tech Stack • 📂 Project Structure
+## 🚀 Getting Started • ✨ Features • 🧰 Tech Stack • 📂 Project Structure
 
 </div>
 
-📌 About The Project
+### 📌 About The Project
 
-AnshaMart is a full-stack e-commerce web application designed to simulate a real-world online shopping experience.
+* AnshaMart is a full-stack e-commerce web application designed to simulate a real-world online shopping experience.
 
-The project covers the complete shopping flow — from browsing and searching products to authentication, cart management, wishlist, checkout, order processing, and reviews.
+* The project covers the complete shopping flow — from browsing and searching products to authentication, cart management, wishlist, checkout, order processing, and reviews.
 
-The application uses a JavaScript frontend, Node.js + Express.js REST API backend, and PostgreSQL database.
+* The application uses a JavaScript frontend, Node.js + Express.js REST API backend, and PostgreSQL database.
 
-🎯 What this project demonstrates
-Full-stack web development
-REST API architecture
-PostgreSQL database integration
-Authentication and password hashing
-CRUD operations
-Client-server communication
-E-commerce workflows
-Git & GitHub workflow
-Responsive frontend development
+### 🎯 What this project demonstrates
+* Full-stack web development
+* REST API architecture
+* PostgreSQL database integration
+* Authentication and password hashing
+* CRUD operations
+* Client-server communication
+* E-commerce workflows
+* Git & GitHub workflow
+* Responsive frontend development
 
 ## ✨ Features
 
