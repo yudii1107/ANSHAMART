@@ -1,14 +1,36 @@
-# 🛍️ AnshaMart
+🛍️ AnshaMart
+Full-Stack E-Commerce Web Application
 
-### Full-Stack E-Commerce Website
+A modern e-commerce platform built from scratch with a focus on real-world shopping workflows, REST APIs, authentication, database integration, and a clean user experience.
 
-AnshaMart is a full-stack e-commerce web application built to simulate a real-world online shopping platform. It includes product browsing, authentication, shopping cart, wishlist, reviews, checkout, and order management with a PostgreSQL-powered backend.
+<div align="center">
 
-<p align="center">
-  <strong>Built with HTML • CSS • JavaScript • Node.js • Express.js • PostgreSQL</strong>
-</p>
+HTML5 • CSS3 • JavaScript • Node.js • Express.js • PostgreSQL
 
----
+<br>
+
+🚀 Getting Started • ✨ Features • 🧰 Tech Stack • 📂 Project Structure
+
+</div>
+
+📌 About The Project
+
+AnshaMart is a full-stack e-commerce web application designed to simulate a real-world online shopping experience.
+
+The project covers the complete shopping flow — from browsing and searching products to authentication, cart management, wishlist, checkout, order processing, and reviews.
+
+The application uses a JavaScript frontend, Node.js + Express.js REST API backend, and PostgreSQL database.
+
+🎯 What this project demonstrates
+Full-stack web development
+REST API architecture
+PostgreSQL database integration
+Authentication and password hashing
+CRUD operations
+Client-server communication
+E-commerce workflows
+Git & GitHub workflow
+Responsive frontend development
 
 ## ✨ Features
 
@@ -310,6 +332,8 @@ Possible future enhancements include:
 
 Interested in Full-Stack Development and building practical web applications.
 
+<p align="center"> <a href="https://github.com/yudii1107"> <img src="https://img.shields.io/badge/GitHub-yudii1107-181717?style=for-the-badge&logo=github" alt="GitHub"> </a> </p>
+
 ---
 
 ## 📄 License
@@ -321,3 +345,5 @@ This project is created for educational and portfolio purposes.
 <p align="center">
   ⭐ If you find this project interesting, consider giving the repository a star!
 </p>
+
+<p align="center"> <b>Built with 💻 and ☕ by Yudhishthir</b> </p>
