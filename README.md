@@ -1,15 +1,15 @@
-#### 🛍️ AnshaMart
+# 🛍️ AnshaMart
 ## Full-Stack E-Commerce Web Application
 
-# A modern e-commerce platform built from scratch with a focus on real-world shopping workflows, REST APIs, authentication, database integration, and a clean user experience.
+ A modern e-commerce platform built from scratch with a focus on real-world shopping workflows, REST APIs, authentication, database integration, and a clean user experience.
 
 <div align="center">
 
-## HTML5 • CSS3 • JavaScript • Node.js • Express.js • PostgreSQL
+ HTML5 • CSS3 • JavaScript • Node.js • Express.js • PostgreSQL
 
 <br>
 
-## 🚀 Getting Started • ✨ Features • 🧰 Tech Stack • 📂 Project Structure
+ 🚀 Getting Started • ✨ Features • 🧰 Tech Stack • 📂 Project Structure
 
 </div>
 
