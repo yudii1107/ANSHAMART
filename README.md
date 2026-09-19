@@ -1,4 +1,4 @@
-<img width="1896" height="902" alt="Screenshot 2026-09-19 032706" src="https://github.com/user-attachments/assets/01ef52f8-cb8a-40db-8a83-0d8e3cc96e58" /># 🛍️ AnshaMart
+# 🛍️ AnshaMart
 
 ### Full-Stack E-Commerce Website
 
