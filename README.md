@@ -1,4 +1,4 @@
-# 🛍️ AnshaMart
+<img width="1896" height="902" alt="Screenshot 2026-09-19 032706" src="https://github.com/user-attachments/assets/01ef52f8-cb8a-40db-8a83-0d8e3cc96e58" /># 🛍️ AnshaMart
 
 ### Full-Stack E-Commerce Website
 
@@ -262,14 +262,11 @@ DELETE /api/wishlist/:productId
 
 Screenshots of the application can be added here to showcase:
 
-* Homepage
-* Shop page
-* Product details
-* Cart
-* Login/Register
-* Checkout
-* Orders
-* Wishlist
+<img width="1896" height="902" alt="Screenshot 2026-09-19 032706" src="https://github.com/user-attachments/assets/1495a670-5fa4-4c9b-8740-e1fb58078b29" />
+<img width="1878" height="902" alt="Screenshot 2026-09-19 032945" src="https://github.com/user-attachments/assets/30fb35b1-695c-46ef-bd3e-355bffea0ea9" />
+<img width="1880" height="900" alt="Screenshot 2026-09-19 032804" src="https://github.com/user-attachments/assets/891c8a67-dab7-4813-b68a-8cc4d0d6ab70" />
+<img width="1895" height="906" alt="Screenshot 2026-09-19 032734" src="https://github.com/user-attachments/assets/3d14980c-d275-4684-ab42-537a95197b83" />
+
 
 ---
 
